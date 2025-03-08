@@ -1,0 +1,26 @@
+{
+  "name": "async-detector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "http-server -с-1",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crefise/async-detector.git"
+  },
+  "author": "Volodymyr Ponomarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crefise/async-detector/issues"
+  },
+  "homepage": "https://github.com/crefise/async-detector#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "http-server": "^14.1.1",
+    "typescript": "^5.8.2"
+  }
+}
